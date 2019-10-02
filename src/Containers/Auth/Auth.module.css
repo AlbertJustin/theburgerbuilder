@@ -1,0 +1,45 @@
+.auth-form {
+    width: 80%;
+    padding: 15px;
+    margin: 120px auto;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 3px #ccc;
+}
+
+.input-box {
+    display: block;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 16px;
+}
+
+@media (min-width: 600px) {
+    .auth-form {
+        width: 500px;
+    }
+}
+
+.submit {
+    border: 1px solid #5C9210;
+    border-radius: 5px;
+    display: block;
+}
+
+.switch {
+    background-color: transparent;
+    color: #944317;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    margin: 0px auto;
+    font-size: inherit;
+}
